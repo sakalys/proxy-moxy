@@ -1,0 +1,20 @@
+{
+    "name": "sakalys/proxy-moxy",
+    "authors": [
+        {
+            "name": "Julius Šakalys"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {"Sakalys\\": "app"}
+    },
+    "require": {
+        "symfony/http-foundation": "~2.6",
+        "illuminate/support": "~5.0",
+        "symfony/dom-crawler": "~2.6",
+        "symfony/css-selector": "~2.6",
+        "symfony/validator": "~2.6"
+    }
+}
